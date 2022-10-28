@@ -71,7 +71,7 @@ ul{
     min-width: 160px;
     display: flex;
     justify-content: space-between;
-    padding-left: 50px ;
+    gap:30px
 }
 
 .menu-item {
