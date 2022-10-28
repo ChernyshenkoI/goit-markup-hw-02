@@ -18,10 +18,12 @@ body {
     line-height: 1.2;
     background-color: var(--bg-color);
 }
-
+ul{
+    list-style-type: none;
+}
 .link {
     text-decoration: none;
-}
+ }
 
 .visually-hidden {
     position: absolute;
@@ -69,6 +71,7 @@ body {
     min-width: 160px;
     display: flex;
     justify-content: space-between;
+    padding-left: 50px ;
 }
 
 .menu-item {
@@ -104,9 +107,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--light-text-color);
-    background-blend-mode: multiply;
     height: 600px;
-    background-image: url(../img/denys-nevozhai-7nrsVjvALnA-unsplash-1.jpg);
+    
 }
 
 .main-text {
