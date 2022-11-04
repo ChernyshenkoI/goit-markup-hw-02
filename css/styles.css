@@ -7,7 +7,7 @@
 
     --text-color: #212121;
     --light-text-color: #757575;
-    --accent-text-color:##FFFFFF;
+    --accent-text-color:#FFFFFF;
    
 
     --accent-color: #2196F3;
@@ -21,6 +21,14 @@ body {
     line-height: 1.2;
     background-color: var(--bg-color);
 }
+
+ul{
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+ }
 
 /* Header */
 
@@ -57,7 +65,9 @@ body {
 .main-contact:hover {
     color: var(--accent-color);
 }
-
+.current{
+    color: var(--accent-color);
+}
 /* Main */
 
 .main-section {
@@ -68,18 +78,17 @@ body {
     font-weight: 900;
     font-size: 44px;
     color: var(--accent-text-color);
+    text-align: center;
 }
 
 .main-button {
-    font-family: var(--main-font);
-
+    font-family: inherit;
     line-height: 1.2;
     font-weight: 700;
     font-size: 16px;
     background-color: var(--accent-color);
     color: var(--accent-text-color);
     cursor: pointer;
-    
 }
 
 .main-button:hover,
@@ -140,12 +149,9 @@ body {
     background-color: var(--dark-bg-color);
 }
 
-.footer-list {
-    width: var(--desktop-width);
-}
-
 .studio-footer {
-    color: var(--accent-text-color)
+    color: var(--accent-text-color);
+
 }
 
 .footer-adress,
@@ -153,6 +159,8 @@ body {
     font-size: 14px;
     line-height: 1.71;
     color: var(--accent-text-color);
+    font-style: normal;
+
 }
 
 .footer-contact {
