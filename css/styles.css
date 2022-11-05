@@ -8,6 +8,7 @@
     --text-color: #212121;
     --light-text-color: #757575;
     --accent-text-color:#FFFFFF;
+    --foter-text-color:rgba(255, 255, 255, 0.6);
    
 
     --accent-color: #2196F3;
@@ -71,7 +72,7 @@ ul{
 /* Main */
 
 .main-section {
-    background-color: var(--light-text-color);
+    background-color: var(--dark-bg-color);
 }
 
 .main-text {
@@ -79,6 +80,7 @@ ul{
     font-size: 44px;
     color: var(--accent-text-color);
     text-align: center;
+    text-transform: uppercase;
 }
 
 .main-button {
@@ -102,12 +104,14 @@ ul{
     font-weight: 700;
     font-size: 14px;
     color: var(--text-color);
+    text-transform: uppercase;
 }
 
 .item-text {
     font-size: 14px;
     line-height: 1.71;
-    color: var(--light-text-color)
+    color: var(--light-text-color);
+    
 }
 
 /* Activities */
@@ -164,7 +168,7 @@ ul{
 }
 
 .footer-contact {
-    color: var(--light-text-color)
+    color: var(--foter-text-color);
 }
 
 .footer-adress:hover,
